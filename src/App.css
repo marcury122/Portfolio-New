@@ -1,0 +1,263 @@
+.container {
+  background: linear-gradient(to right, white 5%, #30cfd0 40%, #793bc4, white);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoContainer {
+  margin-top: 100px;
+  /* background-color: #667eea; */
+  height: 70vh;
+  width: 65vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid rgb(0, 0, 0);
+  border-radius: 35px;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  word-wrap: break-word;
+  font-size: 50px;
+}
+
+.hello {
+  font-size: 1em;
+  color: white;
+}
+
+.name {
+  font-size: 1.35em;
+  color: white;
+}
+
+.aboutMe {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0.85em;
+  color: white;
+  animation: typing 10s steps(40, start);
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  16% {
+    width: 100%;
+  }
+  16.001% {
+    width: 100%;
+  }
+  32% {
+    width: 25%;
+  }
+  32.001% {
+    width: 25%;
+  }
+  47% {
+    width: 100%;
+  }
+  47.001% {
+    width: 100%;
+  }
+  64% {
+    width: 25%;
+  }
+  64.001% {
+    width: 25%;
+  }
+  80% {
+    width: 100%;
+  }
+  80.001% {
+    width: 100%;
+  }
+  100% {
+    width: 25%;
+  }
+}
+
+.buttons button {
+  font-size: large;
+  margin: 25px 5px 5px 15px;
+  padding: 15px;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+.buttons button:hover {
+  color: white;
+  background-color: grey;
+}
+
+.devPic img {
+  /* height: 70vh;   */
+  height: 470px;
+  width: 335px;
+}
+
+.intro {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  padding-top: 40px;
+  padding-left: 100px;
+  color: rgb(0, 0, 0);
+  /* padding: 15px; */
+}
+
+.intro h1 {
+  /* background: rgb(248, 135, 227); */
+  width: max-content;
+  text-decoration: underline;
+  border-radius: 15px;
+}
+
+.intro p {
+  width: 50%;
+  word-wrap: normal;
+}
+
+.skills {
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  /* background-color:coral; */
+  width: 5vw;
+}
+
+.skillValue {
+  /* background-color: blue; */
+  width: 25vw;
+}
+
+.skillSet {
+  display: flex;
+}
+
+.behindBox {
+  background-color: grey;
+  margin-left: 15px;
+  width: 250px;
+  height: 10px;
+  margin-top: 13px;
+  margin-bottom: 24px;
+  border-radius: 25px;
+  /* border-style: dashed; */
+  /* border-color: black; */
+}
+
+.line {
+  background-color: coral;
+  height: 10px;
+  margin-top: 13px;
+  margin-bottom: 24px;
+  border-radius: 25px;
+  /* border-style: solid; */
+  /* border-color: black; */
+}
+
+.p100 {
+  width: 250px;
+}
+.p75 {
+  width: 180px;
+}
+.p50 {
+  width: 100px;
+}
+.p25 {
+  width: 50px;
+}
+
+.contactForm {
+  margin-left: 50px;
+  justify-content: center;
+  font-size: 40px;
+  display: flex;
+  color: white;
+  background-color: grey;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  padding: 50px;
+  width: 80vw;
+  /* height: 70vh; */
+  border-radius: 40px;
+  margin: 0px 100px 100px 150px;
+}
+
+.mb-3 label {
+  display: flex;
+  padding-bottom: 20px;
+  font-size: 0.45em;
+  height: 10px;
+}
+
+#form-check {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-text {
+  font-size: 0.4em;
+}
+
+.contactForm input {
+  margin: 5px 5px 5px 5px;
+  border-radius: 12px;
+  padding: 5px;
+  font-size: 0.4em;
+}
+
+.btn button {
+  font-size: 16px;
+  margin: 5px 5px 5px 5px;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 3px solid white;
+  background-color: grey;
+}
+
+.btn button:hover {
+  color: white;
+  background-color: skyblue;
+}
+
+.line1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 5px;
+  width: 5px;
+  height: 400px;
+  background-color: #fff;
+  /* background-image: linear-gradient(to right, #ff9e9d, #fbc2eb); */
+}
+.social a {
+  display: flex;
+  font-size: 0.5em;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  text-decoration: none;
+}
+
+.social i {
+  margin: 10px;
+}
