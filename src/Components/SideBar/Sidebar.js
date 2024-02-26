@@ -44,13 +44,13 @@ const Sidebar = () => {
 
     <nav
       class="navbar navbar-dark bg-dark fixed-top"
-      style={{ height: "86px" }}
+      style={{ height: "86px", position: "absolute" }}
     >
       <div class="container-fluid">
         <a
           class="navbar-brand"
           href="#"
-          style={{ fontSize: "40px", marginLeft: "30px" }}
+          style={{ fontSize: "40px", marginLeft: "4%" }}
         >
           Mehul Jain
         </a>

@@ -29,6 +29,7 @@ const Tabs = () => {
             href={tabData.href}
             onMouseEnter={() => handleMouseEnter(tabData.value)}
             onMouseLeave={handleMouseLeave}
+            target={tabData.target}
           >
             <i className={tabData.icon}></i> {tabData.name}
           </a>

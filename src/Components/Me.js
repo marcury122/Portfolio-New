@@ -4,7 +4,7 @@ const Me = () => {
   return (
     <div class="intro" id="me">
       <h1>About ME</h1>
-      <p>
+      <p style={{ fontSize: "20px" }}>
         Hii, My name is Mehul Jain, I am a 3rd year BTech Student, a front end
         developer and a full stack enthusiast. I am current working on my skills
         and also finding opportunities to gain hands on experience in the field
